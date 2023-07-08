@@ -156,8 +156,30 @@ resume-item-institute, .resume-item-description {
 }
  footer{
     display: flex;
+    gap: 100px;
     background-color: azure;
     margin-top: 100px;
     padding: 130px 200px;
  }
+.footer-column {
+    width: 50%;
+    .social links a {
+        margin-right: 15px;
+
+    }
+
+    }
+}.Contact input, textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #181818;
+    border-radius: 5px;
+    background-color: bisque;
+    border: 0px;
+    width: 100%;
+    
+
+}
+.
 

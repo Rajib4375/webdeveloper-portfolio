@@ -19,6 +19,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-top: 100px;
 }
  .section-description {
     color: rgb(213, 135, 222);
@@ -53,8 +54,8 @@ nav a {
  .header {
     background-color: beige;
     background-image: url('../simple-blue-gradient-background-vector-business_53876-143439.avif');
-     /* background-repeat: no-repeat; */
-    /* background-position: bottom right; */
+     /* background-repeat: no-repeat;  */
+    background-position: bottom right; 
  }
  .banner {
     padding: 30px 30px 0px 150px;
@@ -83,7 +84,7 @@ nav a {
 .banner-content {
     max-width: 500px;
 }
-/* main section */
+ /* main section */
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -103,9 +104,55 @@ main {
 .about-info{
     text-align: center;
 }
+/* skills releted styles */
+.what-i-do-description {
+    padding: 30px 150px;
+}
+.skills-continer {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: darkgray;
+    box-shadow: 0px 50px 0px cadetblue; 
+    
+}
+.skell-description {
+    padding: 30px;
+}
+.resume-coloum-title {
+    color: burlywood;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
 
+}
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+resume-item-institute, .resume-item-description {
+    color: rgb(222, 135, 135);
+    .resume-item-institute {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
 
-
-
-
+}
+.resume-item-title {
+    color: cornflowerblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr {
+    margin: 30px;
+}
+.download-cv {
+    text-align: center;
+}
+ 
 
